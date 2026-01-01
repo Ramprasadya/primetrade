@@ -14,7 +14,7 @@ export default function Navbar() {
         <Link href="/dashboard/profile" className="w-full bg-violet-800 backdrop-blur-2xl text-white px-4 py-2 rounded-md cursor-pointer">
           Profile
         </Link>
-      <button onClick={logout} className="bg-red-500 px-4 py-2 rounded">
+      <button onClick={logout} className="bg-red-500 px-4 py-2 rounded cursor-pointer ">
         Logout
       </button>
       </div>

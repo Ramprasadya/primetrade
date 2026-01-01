@@ -33,7 +33,15 @@ export default function Login() {
          <button onClick={submit} className="w-full bg-violet-800 backdrop-blur-2xl text-white px-4 py-2 rounded-md cursor-pointer">
           Login
         </button>
-        
+        <p className="text-sm text-center text-gray-600">
+          Don't have an account?{" "}
+          <span
+            className="text-blue-600 cursor-pointer"
+            onClick={() => (window.location.href = "/signup")}
+          >
+            Create Account
+          </span>
+        </p>
       </div>
     </div>
   );
